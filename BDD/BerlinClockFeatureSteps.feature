@@ -49,3 +49,14 @@ RRRR
 OOOOOOOOOOO
 OOOO
 """
+
+Scenario: Preparing for lunch
+When the time is "12:15:00"
+Then the clock should look like
+"""
+Y
+RROO
+RROO
+YYROOOOOOOO
+OOOO
+"""
